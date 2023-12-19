@@ -1,2 +1,2 @@
-# Flight-Data-Acquisition-unit
-Designed a Software Architcture 
+# Flight-Data-Acquisition-unit 
+The real-time Flight Data Acquisition unit is designed for the aviation domain focusing on collecting, processing, storing, and retrieving sensor data. It supports data ingestion at a rate of 10 megabytes per second from primary source of sensors without eliminating bad data using a FIFO approach. The platform retains all data for the past 10 hours and ensures real-time processing. This system uses NoSQL data base to store a data of 360GB in a 512GB solid state Drive(SSD).This system adheres to Interface Controlled Document (ICD) specifications and uses an Ethernet link as the protocol for data retrieval only by an authorized person at a rate of retrieval 200 megabytes per second facilitating data retrieval in less than 30 minutes.
